@@ -1,7 +1,7 @@
 def square_array(numbers)
   index = 0
+  new_array = []
   while index <= array.length do
-    new_array = []
     for item in array do
       item = item ** 2
       new_array.push(item)
